@@ -1,0 +1,42 @@
+.ss2__hotel_type {
+  padding: 20px 0;
+  h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  .ss2__hotel_type_items {
+    display: grid;
+    grid-template-columns: repeat(5, calc((var(--w-container) - 100px) / 5));
+    gap: 25px;
+
+    .ss2__hotel_type_item {
+      div {
+        &:first-child {
+          overflow: hidden;
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+          img {
+            height: 170px;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+        &:last-child {
+          p {
+            &:first-child {
+              color: black;
+              font-size: 1.4rem;
+              font-weight: 700;
+              line-height: 1.5;
+            }
+            &:last-child {
+              color: gray;
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

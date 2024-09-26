@@ -1,0 +1,41 @@
+.form__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  > div {
+    p {
+      color: white;
+      text-align: center;
+      &:first-child {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2;
+      }
+      &:last-child {
+        padding: 20px 0;
+      }
+    }
+  }
+  form {
+    height: 40px;
+    input {
+      height: 100%;
+      width: 300px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      padding-left: 10px;
+    }
+    button {
+      height: 100%;
+      margin-left: 30px;
+      padding: 10px;
+      background-color: #0071c2;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      color: white;
+    }
+  }
+}

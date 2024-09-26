@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --text--blue: #003580;
+  --text--blue-2: #0071c2;
+  --bg--btn-white: white;
+  --bg-white: white;
+  --text-white: white;
+  --color-gray: #9b9b9b;
+  --w-container: 75rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  font-family: Inter, sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+.container {
+  width: var(--w-container);
+  /* 1000px */
+  margin: 0 auto;
+}

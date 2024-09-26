@@ -1,0 +1,65 @@
+.search__pop_up {
+  width: 29%;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #ffd900;
+  > div {
+    h2 {
+      padding: 15px 10px;
+      color: #02026c;
+    }
+    form {
+      .search__pop_up_top {
+        color: black;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 10px 0;
+        label {
+          display: block;
+          padding: 10px 0;
+        }
+        input {
+          width: 100%;
+          padding: 18px;
+          font-size: 1.2rem;
+          border: none;
+          outline: none;
+        }
+      }
+      .search__pop_up_bottom {
+        p {
+          color: black;
+          font-size: 1rem;
+          font-weight: 600;
+          padding: 10px 0;
+        }
+        > div {
+          width: 100%;
+          padding: 10px 20px;
+          label {
+            height: 100%;
+            display: inline-block;
+            width: 80%;
+            color: rgb(2, 24, 133);
+            font-size: 1rem;
+            font-weight: 500;
+          }
+          input {
+            width: 20%;
+            font-size: 1.2rem;
+            padding: 5px 2px;
+          }
+        }
+      }
+    }
+    button {
+      width: 100%;
+      padding: 20px;
+      font-size: 1.4rem;
+      color: white;
+      background-color: #0000a4;
+      border: none;
+      outline: none;
+    }
+  }
+}

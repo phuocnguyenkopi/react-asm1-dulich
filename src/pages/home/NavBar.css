@@ -1,0 +1,43 @@
+.nav__header {
+  font-size: 1.2rem;
+  /*  */
+  ul {
+    font-size: 1rem;
+    list-style: none;
+    display: flex;
+    li {
+      padding: 0.5rem;
+      i {
+        font-size: 24px;
+      }
+      a {
+        text-decoration: none;
+        color: var(--text--white);
+      }
+
+      + li {
+        margin-left: 1rem;
+      }
+    }
+    .border_active {
+      border: 1px solid var(--bg--btn-white);
+      border-radius: 20px;
+    }
+  }
+}
+.btn__account {
+  margin-left: auto;
+  button {
+    padding: 10px 20px;
+    color: var(--text--blue);
+    background-color: var(--bg--btn-white);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    + button {
+      margin-left: 20px;
+    }
+  }
+}
+/*  */
